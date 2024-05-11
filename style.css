@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    position: relative;
+
+}
+
+.background {
+    background-color: black;
+    line-height: 0;
+}
+
+.background img {
+    width: 100%;
+    opacity: 0.4;
+    height: 100vh;
+}
+
+.marker {
+    display: flex;
+    align-items: center;
+    background-color: #3877EE;
+    border-radius: 41px;
+    color: wheat;
+    cursor: pointer;
+}
+
+.marcer_color {
+    background-color: #6ABF4B;
+}
+
+.marker.hidden {
+    opacity: 0.7;
+}
+
+.button {
+    width: 41px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.location-name {
+    padding-right: 15px;
+}
+
+.marker.hidden .location-name {
+    display: none;
+}
+
+.main div:nth-child(2) {
+    position: absolute;
+    left: calc(37% - 20px);
+    top: calc(46% - 20px);
+}
+
+.main div:nth-child(3) {
+    position: absolute;
+    left: calc(31.5% - 20px);
+    top: calc(27.5% - 20px);
+}
+
+.main div:nth-child(4) {
+    position: absolute;
+    left: calc(24% - 20px);
+    top: calc(67% - 20px);
+}
+
+.main div:nth-child(5) {
+    position: absolute;
+    left: calc(56.5% - 20px);
+    top: calc(59% - 20px);
+}
+
+.main div:nth-child(6) {
+    position: absolute;
+    left: calc(75% - 20px);
+    top: calc(46% - 20px);
+}
+
+.main div:nth-child(7) {
+    position: absolute;
+    left: calc(73% - 20px);
+    top: calc(23% - 20px);
+}
+
+.main div:nth-child(8) {
+    position: absolute;
+    left: calc(83% - 20px);
+    top: calc(69% - 20px);
+}
+
+.main div:nth-child(9) {
+    position: absolute;
+    left: calc(68% - 20px);
+    top: calc(64% - 20px);
+}
+
+.main div:nth-child(10) {
+    position: absolute;
+    left: calc(58% - 20px);
+    top: calc(75% - 20px);
+}
+
+.main div:nth-child(11) {
+    position: absolute;
+    left: calc(60% - 20px);
+    top: calc(40% - 20px);
+}
